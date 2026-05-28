@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#080411">
+  <title>50ans CHOUCHOU 2026</title>
+
+  <style>
+    * {
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, Helvetica, sans-serif;
+    }
+
+    html, body {
+      min-height:100%;
+      background:#080411;
+      color:white;
+    }
+
+    body {
+      min-height:100svh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:20px;
+
+      background:
+        radial-gradient(circle at 24% 17%, rgba(92,30,140,.60), transparent 35%),
+        radial-gradient(circle at 72% 13%, rgba(30,65,145,.50), transparent 35%),
+        radial-gradient(circle at 53% 93%, rgba(170,105,22,.22), transparent 34%),
+        linear-gradient(180deg,#1f1438 0%,#090613 62%,#030206 100%);
+    }
+
+    .card {
+      width:min(520px,100%);
+      border-radius:28px;
+      padding:26px 24px 30px;
+      text-align:center;
+
+      background:
+      linear-gradient(
+      180deg,
+      rgba(255,255,255,.16),
+      rgba(255,255,255,.08)
+      );
+
+      border:1px solid rgba(255,255,255,.22);
+
+      box-shadow:
+      0 30px 85px rgba(0,0,0,.62);
+
+      backdrop-filter:blur(16px);
+    }
+
+    .badge {
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:8px;
+
+      padding:8px 14px;
+
+      border-radius:999px;
+
+      background:rgba(255,255,255,.11);
+
+      border:1px solid rgba(255,255,255,.18);
+
+      color:rgba(255,255,255,.78);
+
+      font-size:14px;
+
+      margin-bottom:18px;
+    }
+
+    h1 {
+      font-size:clamp(40px,10vw,58px);
+      line-height:1;
+      font-weight:900;
+      letter-spacing:-1.4px;
+      margin-bottom:8px;
+    }
+
+    .year {
+      font-size:clamp(28px,7vw,42px);
+      font-weight:900;
+      margin-bottom:12px;
+    }
+
+    .sub {
+      font-size:18px;
+      color:rgba(255,255,255,.76);
+      margin-bottom:22px;
+    }
+
+    .info {
+      border-radius:23px;
+      padding:22px 18px;
+
+      background:rgba(0,0,0,.25);
+
+      border:1px solid rgba(255,255,255,.10);
+
+      margin-bottom:18px;
+    }
+
+    .cake {
+      font-size:58px;
+      margin-bottom:12px;
+    }
+
+    .info p {
+      font-size:17px;
+      line-height:1.35;
+      color:rgba(255,255,255,.82);
+    }
+
+    .buttons {
+      display:grid;
+      gap:14px;
+    }
+
+    .btn {
+      display:flex;
+      align-items:center;
+      justify-content:center;
+
+      min-height:64px;
+
+      border-radius:17px;
+
+      color:white;
+
+      text-decoration:none;
+
+      font-size:21px;
+
+      font-weight:900;
+
+      border:0;
+
+      box-shadow:
+      0 14px 30px rgba(0,0,0,.28);
+
+      transition:.15s;
+
+      -webkit-tap-highlight-color:transparent;
+    }
+
+    .btn:hover {
+      transform:scale(1.02);
+    }
+
+    .btn:active {
+      transform:scale(.985);
+    }
+
+    .tel {
+      background:
+      linear-gradient(
+      135deg,
+      #22c55e,
+      #16a34a
+      );
+    }
+
+    .k4 {
+      background:
+      linear-gradient(
+      135deg,
+      #8b5cf6,
+      #a855f7
+      );
+    }
+
+    .footer {
+      margin-top:22px;
+      color:rgba(255,255,255,.70);
+      font-size:15px;
+      line-height:1.35;
+    }
+
+    @media (max-width:420px) {
+
+      body {
+        padding:14px;
+      }
+
+      .card {
+        padding:22px 18px 26px;
+        border-radius:24px;
+      }
+
+      .btn {
+        font-size:19px;
+        min-height:62px;
+      }
+
+      .info p {
+        font-size:16px;
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <main class="card">
+
+    <div class="badge">
+      🎬 Présentation anniversaire
+    </div>
+
+    <h1>50ans</h1>
+
+    <div class="year">
+      CHOUCHOU 2026
+    </div>
+
+    <div class="sub">
+      Choisis la version adaptée à ton appareil.
+    </div>
+
+    <section class="info">
+
+      <div class="cake">
+        🎂
+      </div>
+
+      <p>
+        Sur téléphone, utilise d'abord le bouton <strong>TEL</strong>.<br>
+        Sur TV / PC / rétroprojecteur, utilise <strong>4K</strong>.
+      </p>
+
+    </section>
+
+    <nav class="buttons">
+
+      <a class="btn tel"
+      href="https://youtu.be/EBmOuPgKGXg"
+      target="_blank"
+      rel="noopener">
+
+      📱 Version TEL
+
+      </a>
+
+      <a class="btn k4"
+      href="https://youtu.be/T46u1bD0gRo"
+      target="_blank"
+      rel="noopener">
+
+      🖥️ Version ordinateur 4K
+
+      </a>
+
+    </nav>
+
+    <div class="footer">
+      🍿 Installez-vous confortablement et profitez du film
+    </div>
+
+  </main>
+
+</body>
+</html>
